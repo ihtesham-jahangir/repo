@@ -12,6 +12,7 @@ function App() {
         <h4><li> git add . </li></h4> <p> It is used when we want to stage all the files at once. </p>
         <h4><li> git commit -m "a message" </li></h4> <p> It is the record of change. </p>
         <h4><li> git push origin main </li></h4> <p> It is used to upload the local repository content to remote repository. </p>
+        <h4><li> git pull origin main </li></h4> <p> It is used to fetch and download data from a remote repository. S</p>
     </div>
   );
 }
