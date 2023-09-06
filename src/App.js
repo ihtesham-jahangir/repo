@@ -1,8 +1,16 @@
-
+import {useState} from 'react'
 import './App.css';
 
 function App() {
+  const[Count,SetCount] = useState(0);
+  let counter=()=>{
+    SetCount(Count+1);
+  }
+  let rest=()=>{
+    SetCount(0)
+  }
   return (
+ 
     <div className="App">
       
         <h1> Some Git Commands: </h1>
