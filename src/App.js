@@ -9,7 +9,7 @@ function App() {
         <p> and I'm working on git. </p>
         <div className="container">
         <button type="button" className="btn btn-primary btn-lg" > Say Hi! </button>
-        <h1>Hello world</h1>
+        
         </div>
       </header>
       
